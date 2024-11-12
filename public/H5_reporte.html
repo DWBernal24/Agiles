@@ -37,6 +37,11 @@
                 </header>
                 <div class="card">
                     <p>Este reporte detalla el progreso acumulado en el proyecto, destacando los principales hitos alcanzados hasta la fecha.</p>
+                    <!-- Botones para generar reportes -->
+                    <div class="report-buttons">
+                        <button id="generate-pdf" class="generate-button">Generar PDF</button>
+                        <button id="generate-excel" class="generate-button">Generar Excel</button>
+                    </div>
                 </div>
             </section>
 
@@ -48,9 +53,9 @@
                 <div class="card">
                     <label for="progress-bar">Progreso del proyecto</label>
                     <div class="progress-bar-container">
-                        <div class="progress-bar" style="width: 100%;"></div>
+                        <div class="progress-bar"></div>
                     </div>
-                    <p>Progreso: 100% completado</p>
+                    <p id="progress-text">Progreso: 0% completado</p>
                 </div>
             </section>
 
@@ -60,20 +65,17 @@
                     <h2>Detalles de Actividades</h2>
                 </header>
                 <div class="card">
-                    <ul>
-                        <li><strong>Fase 1:</strong> Investigación completada.</li>
-                        <li><strong>Fase 2:</strong> Desarrollo en curso, 80% completado.</li>
-                        <li><strong>Fase 3:</strong> Pruebas iniciales realizadas.</li>
-                        <li><strong>Fase 4:</strong> Documentación en proceso.</li>
-                    </ul>
+                    <ul></ul>
                 </div>
             </section>
 
             <!-- Botón de pie de página -->
             <footer>
+                
                 <button onclick="window.location.href='userStory5.html'" class="footer-button">Volver a la Página Principal</button>
             </footer>
         </div>
     </div>
+    <script src="../public/scripts/H5_reporte.js"></script>
 </body>
 </html>
