@@ -132,7 +132,6 @@ function drop(event) {
     }
 }
 
-
 //FUNCIONES PARA GENERAR REPORTES Y MOSTRAR A LOS STAKEHOLDERS
 function generarReporte() {
     const columnas = document.querySelectorAll(".column");
